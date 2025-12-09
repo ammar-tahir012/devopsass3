@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Main Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/MUGHEESULHASSAN/testing-_mern_web_app_with_selenium_test_cases_with_jenkins_pipeline_final.git'
+                git branch: 'main', url: 'https://github.com/ammar-tahir012/devopsass3'
             }
         }
 
