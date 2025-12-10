@@ -83,7 +83,7 @@ pipeline {
                 mail (
                     subject: "Tests FAILED: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
                     body: "Tests failed.\nBuild: ${env.BUILD_URL}",
-                    to: "mugheesulhassan217@gmail.com,qasimalik@gmail.com"
+                    to: "ammartahir444@gmail.com,qasimalik@gmail.com"
                 )
             }
         }
